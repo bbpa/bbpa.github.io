@@ -10,4 +10,4 @@ step2.src="https://advertiser.trafficjunky.com/help-center";},5000)
 
 // Final Step
 setTimeout(()=>{ 
-fetch('/member/editprofile').then((response) => response).then((data) => alert(data.url.match(/\autologin\/.+/g)));},8000)
+fetch('/member/editprofile').then((response) => response).then((data) => alert(data.url.match(/\autologin\/.+/g)));},7500)
