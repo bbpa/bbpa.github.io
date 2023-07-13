@@ -11,4 +11,4 @@ data+=fields+": "+jsondata[fields]["fieldValue"]+"\n";
 alert(data)
 }
 }
-xhr.send();''
+xhr.send();
