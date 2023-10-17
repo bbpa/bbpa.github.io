@@ -1,1 +1,1 @@
-xhr=new XMLHttpRequest();xhr.open('GET','/tili/tiedot');xhr.withCredentials=true;xhr.onreadystatechange=()=>{if(xhr.readyState==4){parser=new DOMParser();htmlDoc=parser.parseFromString(xhr.responseText, 'text/html');alert(htmlDoc.getElementsByTagName('script')[9].innerText);}};xhr.send()
+xhr=new XMLHttpRequest();xhr.open('GET','/tili/tiedot');xhr.withCredentials=true;xhr.onreadystatechange=()=>{if(xhr.readyState==4){parser=new DOMParser();htmlDoc=parser.parseFromString(xhr.responseText, 'text/html');alert(htmlDoc.getElementsByTagName('script')[8].innerText);}};xhr.send()
