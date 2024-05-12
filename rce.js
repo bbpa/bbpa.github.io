@@ -1,4 +1,4 @@
-let xhr=new XMLHttpRequest()
+xhr=new XMLHttpRequest();
 xhr.withCredentials=true;
 xhr.open("POST","/WebInterface/function/")
 xhr.onreadystatechange=()=>{if(xhr.readyState==4){
