@@ -1,4 +1,8 @@
-let img=new Image();img.src="https://www.puritan.com/login/logout";
+fetch("/login/logout", {
+  method: "GET",
+  body: undefined,
+  referrer: ""
+});
 window.setTimeout(()=>{
 let iframe=document.createElement("iframe");
 iframe.src="https://www.puritan.com/login"
