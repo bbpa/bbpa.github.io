@@ -1,7 +1,8 @@
 fetch("/login/logout", {
   method: "GET",
   body: undefined,
-  referrer: ""
+  referrer: "",
+  redirect:"manual"
 });
 window.setTimeout(()=>{
 let iframe=document.createElement("iframe");
