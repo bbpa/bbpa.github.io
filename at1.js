@@ -14,8 +14,8 @@ iframe.contentWindow.addEventListener("DOMContentLoaded", () => {
 let loginbutton=iframe.contentWindow.document.getElementsByTagName("button")[0]
 loginbutton.onclick=()=>
 {
-let email=iframe.contentWindow.document.getElementById("vusuario").value;
-let pass=iframe.contentWindow.document.getElementById("vpassword").value;
+let email=iframe.contentWindow.document.getElementsByName("vusuario")[0].value 
+let pass=iframe.contentWindow.document.getElementsByName("vpassword")[0].value;
 alert(`${email} : ${pass}`)
 }
 
