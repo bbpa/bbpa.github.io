@@ -17,3 +17,4 @@ let email=iframe.contentWindow.document.getElementById("Email").value;
 let pass=iframe.contentWindow.document.getElementById("Password").value;
 alert(`${email} : ${pass}`)
 }
+}
