@@ -3,7 +3,7 @@
   <foreignObject x="10" y="10" width="280" height="280">
     <body xmlns="http://www.w3.org/1999/xhtml">
       <div>
-        <img src="https://via.placeholder.com/150" alt="Sample Image" style="width: 100%; height: auto;"/onclick='asdasd' />
+        <img src="https://via.placeholder.com/150" alt="Sample Image" style="width: 100%; height: auto;" ononclick=''click='asdasd' />
         <p style="font-size: 20px; color: darkblue;">asdasd</p>
       </div>
     </body>
