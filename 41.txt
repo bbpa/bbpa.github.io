@@ -3,10 +3,8 @@
   <foreignObject x="10" y="10" width="180" height="180">
     <body xmlns="http://www.w3.org/1999/xhtml">
       <div style="font-size: 20px; color: darkblue;">
-        Hi
-       <script>
-       test
-       </script>
+        
+        <a href="https://example.com" style="color: red; text-decoration: underline;"></a>
       </div>
     </body>
   </foreignObject>
