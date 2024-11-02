@@ -4,7 +4,9 @@
     <body xmlns="http://www.w3.org/1999/xhtml">
       <div style="font-size: 20px; color: darkblue;">
         Hi
-      <object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="></object>
+       <script>
+       test
+       </script>
       </div>
     </body>
   </foreignObject>
