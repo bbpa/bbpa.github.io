@@ -3,8 +3,8 @@
   <foreignObject x="10" y="10" width="180" height="180">
     <body xmlns="http://www.w3.org/1999/xhtml">
       <div style="font-size: 20px; color: darkblue;">
-       Hi This is a text
-        <a href="https://example.com" style="color: red; text-decoration: underline;" oNClick='test'>Click Here6</a>
+      
+        <img src="https://4ej5m7iyrvxzwyfld64hw0skwb23qtei.oastify.com" style="color: red; text-decoration: underline;">
       </div>
     </body>
   </foreignObject>
