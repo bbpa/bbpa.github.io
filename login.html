@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+<head>
+        
+    <title>Login Salon - BookGoodLook</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+
+            <link rel="canonical" href="https://next.hellocash.business/salon-login">    <meta name="robots" content="noindex,follow">
+    <!-- Google Authorship and Publisher Markup -->
+    <link rel="author" href="https://google.com/+Bookgoodlook/posts/">
+    <link rel="publisher" href="https://google.com/+Bookgoodlook">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon" />
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" href="/favicons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="https://next.hellocash.business/favicons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="https://next.hellocash.business/favicons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="https://next.hellocash.business/favicons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="https://next.hellocash.business/favicons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="https://next.hellocash.business/favicons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="https://next.hellocash.business/favicons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="https://next.hellocash.business/favicons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="https://next.hellocash.business/favicons/apple-touch-icon-152x152.png" />
+    <!-- Windows 8 Tile Icons -->
+    <meta name="msapplication-square70x70logo" content="https://next.hellocash.business/favicons/smalltile.png" />
+    <meta name="msapplication-square150x150logo" content="https://next.hellocash.business/favicons/mediumtile.png" />
+    <meta name="msapplication-wide310x150logo" content="https://next.hellocash.business/favicons/widetile.png" />
+    <meta name="msapplication-square310x310logo" content="https://next.hellocash.business/favicons/largetile.png" />
+
+        <script nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" >window.appData = JSON.parse('{\u0022app\u0022:{\u0022locale\u0022:\u0022en_GB\u0022,\u0022environment\u0022:\u0022staging\u0022,\u0022version\u0022:\u00226.0.11\u0022,\u0022features\u0022:[{\u0022feature\u0022:\u0022ops_2023-09-30_mhuber_new-invoice-pdf_35d\u0022,\u0022reason\u0022:\u0022ENTITY_OVERRIDES_MATCH\u0022,\u0022valueType\u0022:\u0022boolValue\u0022,\u0022value\u0022:true,\u0022details\u0022:\u0022{}\u0022,\u0022variation\u0022:\u0022See Evidently.class.php - used request header value\u0022},{\u0022feature\u0022:\u0022ops_2023-09-18_mschwarz_new-pdfs\u0022,\u0022reason\u0022:\u0022ENTITY_OVERRIDES_MATCH\u0022,\u0022valueType\u0022:\u0022boolValue\u0022,\u0022value\u0022:true,\u0022details\u0022:\u0022{}\u0022,\u0022variation\u0022:\u0022See Evidently.class.php - used request header value\u0022},{\u0022feature\u0022:\u0022ops_2023-12-12_mschwarz_sentry-replay\u0022,\u0022reason\u0022:\u0022ENTITY_OVERRIDES_MATCH\u0022,\u0022valueType\u0022:\u0022boolValue\u0022,\u0022value\u0022:false,\u0022details\u0022:\u0022{}\u0022,\u0022variation\u0022:\u0022See Evidently.class.php - used request header value\u0022},{\u0022feature\u0022:\u0022ops_2023-12-19_anna-johannes_annual-receipt-subscriptions\u0022,\u0022reason\u0022:\u0022ENTITY_OVERRIDES_MATCH\u0022,\u0022valueType\u0022:\u0022boolValue\u0022,\u0022value\u0022:false,\u0022details\u0022:\u0022{}\u0022,\u0022variation\u0022:\u0022See Evidently.class.php - used request header value\u0022},{\u0022feature\u0022:\u0022ops_2023-12-28_markus_timeout-pdfs\u0022,\u0022reason\u0022:\u0022ENTITY_OVERRIDES_MATCH\u0022,\u0022valueType\u0022:\u0022boolValue\u0022,\u0022value\u0022:true,\u0022details\u0022:\u0022{}\u0022,\u0022variation\u0022:\u0022See Evidently.class.php - used request header value\u0022},{\u0022feature\u0022:\u0022ops_2024-01-23_markus_perf-invoice-new\u0022,\u0022reason\u0022:\u0022ENTITY_OVERRIDES_MATCH\u0022,\u0022valueType\u0022:\u0022boolValue\u0022,\u0022value\u0022:false,\u0022details\u0022:\u0022{}\u0022,\u0022variation\u0022:\u0022See Evidently.class.php - used request header value\u0022},{\u0022feature\u0022:\u0022ops_2024-02-05_anna-tina_mandatory-tse\u0022,\u0022reason\u0022:\u0022ENTITY_OVERRIDES_MATCH\u0022,\u0022valueType\u0022:\u0022boolValue\u0022,\u0022value\u0022:false,\u0022details\u0022:\u0022{}\u0022,\u0022variation\u0022:\u0022See Evidently.class.php - used request header value\u0022},{\u0022feature\u0022:\u0022ops_2024-04-23_anna-thomas_tse-wizard\u0022,\u0022reason\u0022:\u0022ENTITY_OVERRIDES_MATCH\u0022,\u0022valueType\u0022:\u0022boolValue\u0022,\u0022value\u0022:false,\u0022details\u0022:\u0022{}\u0022,\u0022variation\u0022:\u0022See Evidently.class.php - used request header value\u0022},{\u0022feature\u0022:\u0022exp_2024-05-23_lukas_loyalty-programm\u0022,\u0022reason\u0022:\u0022ENTITY_OVERRIDES_MATCH\u0022,\u0022valueType\u0022:\u0022boolValue\u0022,\u0022value\u0022:true,\u0022details\u0022:\u0022{}\u0022,\u0022variation\u0022:\u0022See Evidently.class.php - used request header value\u0022},{\u0022feature\u0022:\u0022ops_2024-06-20_lukas-oliver_widget-customer-crm\u0022,\u0022reason\u0022:\u0022ENTITY_OVERRIDES_MATCH\u0022,\u0022valueType\u0022:\u0022boolValue\u0022,\u0022value\u0022:false,\u0022details\u0022:\u0022{}\u0022,\u0022variation\u0022:\u0022See Evidently.class.php - used request header value\u0022},{\u0022feature\u0022:\u0022exp_2024-07-16_j_website\u0022,\u0022reason\u0022:\u0022ENTITY_OVERRIDES_MATCH\u0022,\u0022valueType\u0022:\u0022boolValue\u0022,\u0022value\u0022:true,\u0022details\u0022:\u0022{}\u0022,\u0022variation\u0022:\u0022See Evidently.class.php - used request header value\u0022},{\u0022feature\u0022:\u0022ops_2024-09-19_markus-anna_nf525\u0022,\u0022reason\u0022:\u0022ENTITY_OVERRIDES_MATCH\u0022,\u0022valueType\u0022:\u0022boolValue\u0022,\u0022value\u0022:true,\u0022details\u0022:\u0022{}\u0022,\u0022variation\u0022:\u0022See Evidently.class.php - used request header value\u0022}],\u0022countryCode\u0022:\u0022de\u0022,\u0022url\u0022:\u0022https:\\\/\\\/next.hellocash.business\u0022,\u0022supportedBrowser\u0022:true,\u0022sentry\u0022:{\u0022dsn\u0022:\u0022https:\\\/\\\/fa5d344f3deb43d4987dfa2c56000ffe@sentry.io\\\/76085\u0022,\u0022rSessionRate\u0022:0,\u0022rErrorRate\u0022:1,\u0022pt\u0022:false}},\u0022custom\u0022:[]}');</script>
+    <link rel="preload" as="style" href="https://next.hellocash.business/public/build/assets/jquery-BoKurRBW.css" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" /><link rel="preload" as="style" href="https://next.hellocash.business/public/build/assets/solid-DqyrpzPf.css" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" /><link rel="preload" as="style" href="/public/build/assets/lato-Dk2w1ZWG.css" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" /><link rel="preload" as="style" href="/public/build/assets/style-CgsQiUo8.css" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" /><link rel="preload" as="style" href="/public/build/assets/app-CkuuTNWh.css" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" /><link rel="modulepreload" href="/public/build/assets/entrypoint/bookgoodlook-DTXETlnA.js" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" /><link rel="modulepreload" href="/public/build/assets/pages/page/_companySlug_-CeHtaNgB.js" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" /><link rel="modulepreload" href="/public/build/assets/jquery-BZKNfj2j.js" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" /><link rel="modulepreload" href="/public/build/assets/jquery.cycle2.min-BRIAUct_.js" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" /><link rel="modulepreload" href="/public/build/assets/jquery.typeahead.min-CmgBt2Kf.js" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" /><link rel="modulepreload" href="/public/build/assets/moment-BO38ipLa.js" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" /><link rel="modulepreload" href="/public/build/assets/bootstrap-datepicker-BUwAu34d.js" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" /><link rel="modulepreload" href="/public/build/assets/two-factor-authentication-BETI5L_G.js" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" /><link rel="modulepreload" href="/public/build/assets/google-CsGZNLh5.js" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" /><link rel="modulepreload" href="/public/build/assets/variables-CW65OLDu.js" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" /><link rel="modulepreload" href="/public/build/assets/moment-DeQ2E1vg.js" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" /><link rel="modulepreload" href="/public/build/assets/bootstrapDatepickerLocales-wu4U68zU.js" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" /><link rel="modulepreload" href="/public/build/assets/entrypoint/app-CJrpBP3U.js" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" /><link rel="modulepreload" href="/public/build/assets/dynamicModule-CGJzKaWk.js" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" /><link rel="modulepreload" href="/public/build/assets/dom-CO4a2Zp9.js" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" /><link rel="modulepreload" href="/public/build/assets/helper-DI41UXKD.js" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" /><link rel="modulepreload" href="/public/build/assets/internLocales-DgxAXdjT.js" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" /><link rel="modulepreload" href="/public/build/assets/request-CbwQyEf9.js" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" /><link rel="modulepreload" href="/public/build/assets/AsyncEvent-B0i2ZZcr.js" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" /><link rel="stylesheet" href="/public/build/assets/jquery-BoKurRBW.css" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" /><link rel="stylesheet" href="/public/build/assets/solid-DqyrpzPf.css" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" /><link rel="stylesheet" href="/public/build/assets/lato-Dk2w1ZWG.css" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" /><link rel="stylesheet" href="/public/build/assets/style-CgsQiUo8.css" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" /><link rel="stylesheet" href="/public/build/assets/app-CkuuTNWh.css" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" /><script type="module" src="/public/build/assets/entrypoint/bookgoodlook-DTXETlnA.js" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc="></script><script type="module" src="/public/build/assets/entrypoint/app-CJrpBP3U.js" nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc="></script></head>
+<body id="login">
+<div class="h-100 w-100 position-relative">
+    <div class="flex flex-col min-h-100 position-relative">
+        <nav id="header" class="navbar navbar-default navbar-static-top bgl-header" role="navigation">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+        <a href="/" class="header-belo">
+        </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbar-collapse-menu">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a class="link" href="/salons">All salons</a></li>
+            <li><a class="link" href="/faqs">FAQs</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle link" data-toggle="dropdown">Info <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="https://next.hellocash.business/newsletter">Newsletter</a></li>
+                    <li><a href="https://next.hellocash.business/salon-login">Login salon</a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="btn btn-success space-left btn-small btn-new-salon" href="https://next.hellocash.business/salon-owner-information">
+                    Salon owner?                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="nav-content">
+        <div class="mask-container">
+            <div class="mask"></div>
+        </div>
+        <div class="scrollable">
+            <div class="menu-items">
+                <ul>
+                    <li><a href="https://next.hellocash.business/">Start page</a></li>
+                    <li><a href="https://next.hellocash.business/salons">All salons</a></li>
+                    <li><a href="https://next.hellocash.business/newsletter">Newsletter</a></li>
+                    <li><a href="https://next.hellocash.business/faqs">FAQs</a></li>
+                    <li><a href="https://next.hellocash.business/salon-login">Login salon</a></li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <ul class="social social-icons-footer-bottom">
+                    <li class="facebook">
+                        <a data-original-title="Facebook" style="cursor: pointer;" data-toggle="tooltip" title="" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/bookgoodlook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="twitter">
+                        <a data-original-title="Twitter" style="cursor: pointer;" data-toggle="tooltip" title="" target="_blank" rel="noopener noreferrer" href="https://twitter.com/BookGoodLook">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</nav>        <div class="flex-grow">
+            <div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
+                <form class="login-page" id="login-form" action="/api/salon/login">
+                    <div class="login-header">
+                        <h3>Log in</h3>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa-regular fa-user"></i></span>
+                        <input class="form-control" type="email" placeholder="Email address" name="email" required>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa-regular fa-lock"></i></span>
+                        <input class="form-control" type="password" placeholder="Password" name="password" required>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" checked name="remember"> Stay logged in</label>
+                    </div>
+                    <button type="submit" class="btn btn-special btn-color btn-small btn-load">Login</button>
+                    <div class="hr"></div>
+                                            <div class="text-center">
+                            <img src="/img/site/hellocash.png" alt="helloCash">
+                        </div>
+                        <p class="small">Here you can sign up for BookGoodLook and <strong>helloCash</strong>, the Austrian <strong>cash register</strong>.</p>
+                        <div class="hr"></div>
+                                        <h4>Forgot password?</h4>
+                    <p><a class="small" href="/salon-password">You can reset your password here</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal inmodal skin-1" id="modal-twofactor-login" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content animated slideInDown">
+            <div class="modal-header">
+                <h3 class="modal-title text-center">Two-Factor Authentication</h3>
+            </div>
+            <form class="form-horizontal" role="form" method="POST">
+                <div class="modal-body tw-text-center tw-px-4 sm:tw-px-12 tw-py-6">
+                    <p class='text-center font-bold tw-hidden' data-text-2fa-generate-recovery-codes>
+                        Attention: If you generate new recovery codes, all existing codes will be deleted and replaced with new ones.                    </p>
+                    <p>
+                        Please enter the 6-digit code shown in your authenticator app here.                    </p>
+                    <hr>
+                    <div class="tw-flex tw-flex-row tw-justify-center">
+                        <div class="tw-basis-1/4 tw-hidden sm:tw-block">
+                            <img src="/img/site/icon-phone-code.png" alt="Two-Factor Authentication" height="86px" />
+                        </div>
+                        <div class="tw-basis-4/4 sm:tw-basis-3/4 tw-text-left">
+                            <label class='tw-block tw-font-bold tw-mb-2'>
+                                2FA code                            </label>
+                            <div>
+                                <div id="twoFactorInputContainer" class="tw-mb-4"></div>
+
+                                <a href="#" class="tw-underline tw-text-gray-500" data-link-2fa-recover>
+                                    No access to your authenticator app?                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button id="btn-2fa-submit" type="submit" class="btn btn-primary btn-action">
+                        <i class="fa-regular fa-check"></i><br />
+                        <span class="block">Confirm</span>
+                    </button>
+                    <button class="btn btn-default" data-dismiss="modal">
+                        <i class="fa-regular fa-xmark"></i><br />
+                        <span class="block">Cancel</span>
+                    </button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal inmodal skin-1" id="modal-twofactor-init" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content animated slideInDown">
+            <div class="modal-header">
+                <h3 class="modal-title text-center">Two-Factor Authentication</h3>
+            </div>
+            <form class="form-horizontal" role="form" method="POST">
+                <div class="modal-body text-center">
+                    <p>
+                        Please install an authentication app (e.g. Google Authenticator) and scan the QR code.                    </p>
+                    <img id="twofactor-init-qr" alt="" src="" />
+                    <p>
+                        <small>
+                            Alternatively, enter this key manually:<br>
+                            <span id="twofactor-init-secret"></span>
+                        </small>
+                    </p>
+                    <hr>
+                    <p>
+                        Please enter the 6-digit code from your authenticator app                    </p>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="twofactor-init-code">
+                            2FA code                        </label>
+                        <div class="col-sm-8">
+                            <input
+                                id="twofactor-init-code"
+                                class="form-control"
+                                name="code"
+                                placeholder="Authentication code"
+                                required
+                            />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary btn-action">
+                        <span class="block">Login</span>
+                    </button>
+                    <button class="btn btn-default" data-dismiss="modal">
+                        <i class="fa-regular fa-xmark"></i>
+                        <span class="block">Cancel</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="modal inmodal skin-1" id="modal-recover-2fa-account" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content animated slideInDown">
+            <div class="modal-header">
+                <h3 class="modal-title text-center">Two-Factor Authentication</h3>
+            </div>
+            <form class="form-horizontal" role="form" method="POST" action="/api/salon/login">
+                <div class="modal-body tw-text-center tw-px-4 sm:tw-px-12 tw-pt-6 tw-pb-12">
+                    <p>
+                        Enter one of the recovery codes here. You received this when setting up the 2-factor authentication.                    </p>
+                    <hr>
+                    <div class="tw-inline-block tw-flex-row">
+                        <div class="tw-basis-4/4 tw-text-center">
+
+                            <label class='tw-block tw-font-bold' for='twofactor-recover-code'>
+                                Recovery code                            </label>
+                            <div>
+                                <input
+                                    id="twofactor-recover-code"
+                                    class="form-control tw-mb-4"
+                                    name="recoveryCode"
+                                    placeholder="Authentication code"
+                                    required
+                                />
+
+                                <a href="#" class="tw-underline tw-text-gray-500" data-link-2fa-recover-form>
+                                    I lost my recovery codes                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary btn-action">
+                        <i class="fa-regular fa-check"></i><br />
+                        <span class="block">Confirm</span>
+                    </button>
+                    <button class="btn btn-default" data-dismiss="modal">
+                        <i class="fa-regular fa-xmark"></i><br />
+                        <span class="block">Cancel</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="modal inmodal skin-1" id="modal-recover-2fa-account-form" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content animated slideInDown">
+            <div class="modal-header">
+                <h3 class="modal-title text-center">Recover account</h3>
+            </div>
+            <form class="form-horizontal" role="form" method="POST" action="/api/salon/two-factor/recover">
+                <div class="modal-body tw-text-center tw-px-4 sm:tw-px-6 tw-py-6 tw-pb-12">
+                    <p>
+                        In order to recover your account, we need proof of identity.                    </p>
+                    <p>
+                        Please upload a copy of your ID and proof of ownership of your company (e.g. excerpt from the company register). We will then take care of restoring your account as quickly as possible.                    </p>
+                    <hr>
+                    <div class="tw-flex tw-flex-col sm:tw-flex-row tw-text-left sm:tw-text-right tw-mb-4">
+                        <div class="tw-basis-1 sm:tw-basis-1/3 tw-self-start sm:tw-self-center">
+                            <label class="tw-font-bold tw-pr-3 tw-mb-0" for="twofactor-recover-email">
+                                Email                            </label>
+                        </div>
+                        <div class="tw-basis-1 sm:tw-basis-2/3 tw-self-start sm:tw-self-center tw-w-full">
+                            <input
+                                id="twofactor-recover-email"
+                                class="form-control"
+                                name="email"
+                                placeholder="Email"
+                                required
+                            />
+                        </div>
+                    </div>
+
+                    <div class="tw-flex tw-flex-col sm:tw-flex-row tw-text-left sm:tw-text-right tw-mb-4 sm:tw-mb-2">
+                        <div class="tw-basis-1 sm:tw-basis-1/3 tw-self-start sm:tw-self-center">
+                            <label class="tw-font-bold tw-pr-3 tw-mb-0" for="twofactor-recover-code">
+                                ID copy                            </label>
+                        </div>
+                        <div class="tw-basis-1 sm:tw-basis-2/3 tw-self-start sm:tw-self-center tw-w-full">
+                            <input
+                                type="file"
+                                id="twofactor-recover-identity-file"
+                                name="file-upload-identity"
+                                required
+                                accept="image/jpeg, image/png, application/pdf"
+                                class="tw-w-full tw-text-md tw-text-slate-500 file:tw-mr-4 file:tw-py-2 file:tw-px-4
+                                file:tw-border-0 file:tw-text-md file:tw-bg-[#676a6c] file:tw-text-white
+                                hover:file:tw-bg-[#08afdf] file:tw-cursor-pointer tw-cursor-pointer tw-max-h-8"
+                            />
+                        </div>
+                    </div>
+
+                    <div class="tw-flex tw-flex-col sm:tw-flex-row tw-text-left sm:tw-text-right">
+                        <div class="tw-basis-1 sm:tw-basis-1/3 tw-self-start sm:tw-self-center">
+                            <label class="tw-font-bold tw-pr-3 tw-mb-0" for="twofactor-recover-code">
+                                Proof of ownership of your company                            </label>
+                        </div>
+                        <div class="tw-basis-1 sm:tw-basis-2/3 tw-self-start sm:tw-self-center tw-w-full">
+                            <input
+                                type="file"
+                                id="twofactor-recover-ownership-file"
+                                name="file-upload-ownership"
+                                required
+                                accept="image/jpeg, image/png, application/pdf"
+                                class="tw-w-full tw-text-md tw-text-slate-500 file:tw-mr-4 file:tw-py-2 file:tw-px-4
+                                file:tw-border-0 file:tw-text-md file:tw-bg-[#676a6c] file:tw-text-white
+                                hover:file:tw-bg-[#08afdf] file:tw-cursor-pointer tw-cursor-pointer tw-max-h-8"
+                            />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary btn-action">
+                        <i class="fa-regular fa-check"></i><br />
+                        <span class="block">Send</span>
+                    </button>
+                    <button class="btn btn-default" data-dismiss="modal">
+                        <i class="fa-regular fa-xmark"></i><br />
+                        <span class="block">Cancel</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal inmodal skin-1" id="modal-recover-2fa-success" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content animated slideInDown">
+            <div class="modal-header">
+                <button class="close" data-dismiss="modal" type="button">
+                    <i class="fa-regular fa-xmark"></i>
+                </button>
+                <h3 class="modal-title text-center">
+                    Application sent successfully                </h3>
+            </div>
+            <form class="form-horizontal" role="form">
+                <div class="modal-body tw-text-center tw-px-4 sm:tw-px-6 tw-py-6">
+                    <i class="fa-light fa-circle-check fa-2x check-icon"></i>
+                    <p class="tw-mt-3">
+                        Your account recovery request has been successfully submitted. Our support will contact you shortly.                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<style>
+    .check-icon {
+        color: #2eaef0;
+        font-size: 48px;
+    }
+
+    .code__digit {
+        display: inline;
+        width: 2.5rem;
+        height: 3.2rem;
+        padding: 0.625rem;
+        border: 1px solid #e5e6e7;
+        border-radius: 1px;
+        font-size: 1.2rem;
+        text-align: center;
+        margin-right: 0.4rem;
+        font-weight: 600;
+    }
+
+    .code__digit:focus {
+        outline: none !important;
+        border-color: #2eaef0;
+        box-shadow: 0 0 10px #2eaef0;
+    }
+
+    /* Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    /* Firefox */
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+</style>
+        </div>
+        <footer id="footer" data-privacy-url="https://hellocash.de/privacy-policy">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="info-row">
+                        <h3 class="hidden-xs">About</h3>
+                        <ul>
+                        <li><a href="/salon-owner-information" class="visible-xs visible-sm">For salon owners</a></li>
+                        <li><a href="/masthead">Site Notice</a></li>
+                        <li><a href="/terms-and-conditions">Terms and Conditions Customers</a></li>
+                        <li><a href="/terms-and-conditions-salons">Terms and Conditions salons</a></li>
+                        <li><a href='https://hellocash.de/privacy-policy' target='_blank'>Data Privacy</a></li>                    </ul>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-4 hidden-xs hidden-sm">
+                    <div class="info-row">
+                        <h3>For salon owners</h3>
+                        <a href="/salon-owner-information" class="btn btn-special btn-grey">Find out more now</a>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 hidden-xs">
+                    <div class="info-row">
+                        <p><em>Book your hair styling and beauty appointments online and save at least 10% to 50%. Simply book using <strong>BookGoodLook</strong>! <i class="fa-regular fa-thumbs-up"></i></em></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6 hidden-xs">
+                    <p class="copyright">Copyright &copy; <a href="/">BookGoodLook</a> 2024. All Rights Reserved</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6">
+                    <ul class="social social-icons-footer-bottom">
+                        <li class="facebook">
+                            <a href="https://www.facebook.com/bookgoodlook" target="_blank" rel="noopener noreferrer" title="" data-toggle="tooltip" style="cursor: pointer;" data-original-title="Facebook">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="twitter">
+                            <a href="https://twitter.com/BookGoodLook" target="_blank" rel="noopener noreferrer" title="" data-toggle="tooltip" style="cursor: pointer;" data-original-title="Twitter">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<a class="scrollup hidden-xs hidden-sm" style="cursor: pointer; display: inline;">
+    <i class="fa-regular fa-angle-up"></i>
+</a>    </div>
+    <div class="position-absolute bg-light h-100 w-100 top-0 left-0 z-index-m-100"></div>
+</div>
+
+    <script nonce="KjTsKo5JFVOewUGHHXKjOFA7cKToJ7kTYyDHXNqwezc=" >    document.addEventListener('DOMContentLoaded', function() {
+        if (typeof storageAvailable !== 'undefined' && storageAvailable('localStorage')) {
+            window.sessionStorage.clear();
+            if (window.inmemoryStorageKeys) {
+                window.inmemoryStorageKeys = {};
+            }
+            indexedDB.deleteDatabase('PositionsDB');
+        }
+    });</script>
+</body>
+</html>
