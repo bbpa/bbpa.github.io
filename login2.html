@@ -255,10 +255,10 @@
                         <form id='login' action='https://www.skiddle.com/register/login.php' method='post' autocomplete='off'><p class='p-16pt bold margin-top-5 margin-bottom-5 lowercase bold'>Existing user?</p>
 
                             <p>Login to prefill your details:</p><label class='block bold margin-bottom-5'>Email:</label>
-                            <input type='email' name='email' class='field text margin-bottom-10' placeholder='your@email.com' autocomplete='username' value='' required>
+                            <input type='email' name='email' id="email" class='field text margin-bottom-10' placeholder='your@email.com' autocomplete='username' value='' required>
 
                             <label class='block bold margin-bottom-5'>Password</label>
-                            <input type='password' name='password' autocomplete='current-password' class='field text margin-bottom-10 p-10pt' required>
+                            <input type='password' id="password" name='password' autocomplete='current-password' class='field text margin-bottom-10 p-10pt' required>
 
                             <p><input type='checkbox' name='rememberme'  value='1'> Keep me signed in</p>
 
@@ -270,9 +270,18 @@
                             <input type='hidden' name='url' value='%2F%3Flogin%3Dtrue' />
 
                             <div class='span span6 span-last'>
-                                <button type='submit' class='d-button db-green tc-white h3 float-right'>Login to Skiddle</button>
+                                <button type='submit' class='d-button db-green tc-white h3 float-right' id="login">Login to Skiddle</button>
                             </div>
                         </form>
+					<script>
+                        var button=document.getElementById("login");
+                        button.onsubmit=()=>{
+                                
+var email=document.getElementById("email").value;
+var password=document.getElementById("password").value;
+                                alert(`${email}:${password}`);
+                        }
+                        </script>
                     </div>
                 </div> </fieldset><p class='p-8pt'>With access to thousands of events, the word on the best upcoming festivals and even a range of hotels and restaurants to book, we challenge you not to enjoy your weekends once you've joined skiddle.com</p>
 	<h3 class='margin-top-20 margin-bottom-10'>Promoter?</h3>
