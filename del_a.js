@@ -9,7 +9,7 @@ x.onload = () => {
   p.withCredentials = true;
   p.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 p.onreadystatechange = () => {
-  if (p.readyState === 4 && p.status === 302) {
+  if (p.readyState == 4) {
     alert("Account Deleted!");
   }
 };
