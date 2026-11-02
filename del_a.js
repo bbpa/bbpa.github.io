@@ -9,7 +9,7 @@ x.onload = () => {
   p.withCredentials = true;
   p.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
   p.onload = () => {
-    alert("Your Account Deleted !");
+    alert("Account Deleted!");
   };
   p.send(new URLSearchParams({csrf, confirm: "1"}));
 };
