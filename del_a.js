@@ -5,7 +5,7 @@ x.onload = () => {
   let csrf = new DOMParser().parseFromString(x.responseText, "text/html").querySelector('[name="csrf"]')?.value;
   if (!csrf) return;
   let p = new XMLHttpRequest();
-  p.open("POST", "/x");
+  p.open("POST", "/skiddlepeople/removeaccount.php");
   p.withCredentials = true;
   p.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
   p.send(new URLSearchParams({csrf, confirm: "1"}));
